@@ -5,7 +5,7 @@
 //$password   = "";
 //$dbname     = "notas";
 
-$servername = "ftpupload.net";
+$servername = "	sql307.epizy.com";
 $username   = "	epiz_28918882";
 $password   = "6xwKZrxRtyfT15";
 $dbname     = "	epiz_28918882_XXX";
