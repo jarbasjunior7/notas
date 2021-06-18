@@ -15,22 +15,19 @@
 
     <center> 
     
-      <font size="5" face="Georgia, Arial" color=#FFFFFF>
-       <p>______________________________________________________________________</p>
+      <font size="5" face="Georgia, Arial" color=#FFFFFF>     
 
        <br>
         <a href = "CRIAÇÃO / insercao.php" >Inserir Dados na Tabela </a> 
           
           <br>
-          <br>
-       <p>______________________________________________________________________</p>
+          <br>  
           <br>
           <br>
 
         <a href = "consulta.php" > Tabela Consultar </a>
         <br>
 
-       <p>______________________________________________________________________</p>
       </font>
 
     <center>
