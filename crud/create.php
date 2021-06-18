@@ -1,9 +1,14 @@
 <?php
 //Página de cadastro
-$servername = "localhost";
-$username   = "root";
-$password   = "";
-$dbname     = "notas";
+//$servername = "localhost";
+//$username   = "root";
+//$password   = "";
+//$dbname     = "notas";
+
+$servername = "ftpupload.net";
+$username   = "	epiz_28918882";
+$password   = "6xwKZrxRtyfT15";
+$dbname     = "	epiz_28918882_XXX";
 
 try {
   $conn = new PDO("mysql:host=$servername;dbname=$dbname;charset=utf-8", $username, $password);
