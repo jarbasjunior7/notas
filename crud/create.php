@@ -10,7 +10,7 @@
 <?php
 
 define('HOST','	sql307.epizy.com');
-define('DB','epiz_28918882_XXX');
+define('DB','epiz_28918882_users');
 define('USER','epiz_28918882');
 define('PASS','6xwKZrxRtyfT15');
 
