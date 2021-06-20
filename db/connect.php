@@ -5,13 +5,13 @@
 //$password   = "";
 //$dbname     = "notas";
 
-define('HOST','	sql307.epizy.com');
-define('DB','epiz_28918882_users');
+define('HOST','sql307.epizy.com');
+define('DB','epiz_28918882_teste');
 define('USER','epiz_28918882');
 define('PASS','6xwKZrxRtyfT15');
 
 try {
-  $pdo = new PDO('mysql:host='.HOST.';dbname='.DB,USER,PASS,array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
+  $pdo = new PDO('mysql:host='.HOST.';dbname='.DB,USER,PASS,array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf-8"));
   $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
   echo "Connected successfully";
 } catch(PDOException $e) {
