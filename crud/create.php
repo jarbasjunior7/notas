@@ -9,7 +9,7 @@
 </head>
 <?php
 
-define('HOST','	sql307.epizy.com');
+define('HOST','localhost'');
 define('DB','epiz_28918882_teste');
 define('USER','epiz_28918882');
 define('PASS','6xwKZrxRtyfT15');
