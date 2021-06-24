@@ -9,10 +9,15 @@
 </head>
 <?php
 
-define('HOST','localhost');
-define('DB','epiz_28918882_teste');
+//define('HOST','localhost');
+//define('DB','notas');
+//define('USER','root');
+//define('PASS','');
+
+define('HOST','sql307.epizy.com');
+define('DB','epiz_28918882_notas');
 define('USER','epiz_28918882');
-define('PASS','6xwKZrxRtyfT15');;
+define('PASS','6xwKZrxRtyfT15');
 
 	try{
 		$pdo = new PDO('mysql:host='.HOST.';dbname='.DB,USER,PASS,array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
